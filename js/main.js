@@ -19,7 +19,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"https://github.com/Potitama/CheruModerator/blob/main/png/supana.png",
+					"src":"./png/supana.png",
 					"width":120,
 					"height":120
 				}
@@ -96,7 +96,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"https://github.com/Potitama/CheruModerator/blob/main/png/supana.png",
+					"src":"./png/supana.png",
 					"width":120,
 					"height":120
 				}
