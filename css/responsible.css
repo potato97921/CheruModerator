@@ -1,0 +1,39 @@
+@media (min-width:768px){
+    .top-title {
+        font-size: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1230px){
+    .status-contents {
+        flex-direction: unset;
+    }
+
+    .data-content {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .data-rank {
+        font-size: 40px;
+    }
+
+    .top-title {
+        font-size: 90px;
+    }
+}
