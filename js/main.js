@@ -19,7 +19,7 @@ if (windowWidth <= windowSm) {
 					"width":0,
 				},
 				"image":{
-					"src":"C:/Users/liste/Desktop/サイト集/チェルサイト/html/png/supana.png",//【重要】画像を指定！桜の画像を設定してください。
+					"src":"https://github.com/Potitama/CheruModerator/blob/main/png/supana.png",
 					"width":120,
 					"height":120
 				}
