@@ -45,6 +45,7 @@ img {
 	width: 90%;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	max-width: 270px;
 }
 
 table {
@@ -68,6 +69,7 @@ a {
 	font-size: 20px;
 	margin-top: 30px;
 	box-shadow: grey 0px 10px 5px;
+	font-weight: bold;
 }
 
 a:active {
@@ -197,6 +199,10 @@ footer {
 	text-align: left;
 }
 
+.tag-1 {
+	font-size: 24px;
+}
+
 .tag1 {
 	margin-top: 45px;
 }
@@ -253,8 +259,9 @@ p:after {
 	position:relative;
 	height: 40px;
 	opacity: 0.9;
-	}
-	.shapedividers_com-6918::before{ 
+}
+
+.shapedividers_com-6918::before{ 
 	content:'';
 	font-family:'shape divider from ShapeDividers.com';
 	position: absolute;
@@ -267,18 +274,52 @@ p:after {
 	top: -0.1vw; 
 	background-size: 100% 37px;
 	background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.278 3.527" preserveAspectRatio="none"><path d="M0 1.064v.125a82.946 82.946 0 0035.278-.007v-.125A82.783 82.783 0 010 1.064M0 .45V.7A83.105 83.105 0 0035.278.693v-.25A82.777 82.777 0 010 .45M33.252 0a82.855 82.855 0 01-31.26 0H0v.092A83.44 83.44 0 0035.278.085V0zm-10.8 0h8.84A84.249 84.249 0 013.952 0h8.839zM0 1.557v.075a82.878 82.878 0 0035.278-.007V1.55A82.771 82.771 0 010 1.557" fill="%23000000"/></svg>'); 
-	}
+}
 	
-	@media (min-width:2100px){
+@media (min-width:2100px){
 	.shapedividers_com-6918::before{
 	background-size: 100% calc(2vw + 37px);
 	}
-	}
-	 
-	  
+}
 
-	 
-	 
-	 
-	
-	   
+.fadein-8 {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+} 
+
+.fadein-9 {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+} 
+
+.fadein-1 {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+}
+
+.counter-sentens {
+	background-color: black;
+	opacity: 0.8;
+	width: 90%;
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 250px;
+	color: aliceblue;
+	font-family: 'Kaisei Decol', serif;
+	font-weight: bold;
+}
+
+.count {
+	background-color: black;
+	opacity: 0.8;
+	color: rgb(17, 185, 115);
+	font-family: 'Kaisei Decol', serif;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 35px;
+	margin-right: 5px;
+}
