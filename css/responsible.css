@@ -2,22 +2,12 @@
     .top-title {
         font-size: 90px;
     }
+
+    .art {
+        width: 400px;
+        height: 400px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width:1230px){
     .status-contents {
