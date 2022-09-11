@@ -156,6 +156,42 @@ if (windowWidth <= windowSm) {
 	});
 }
 
+$(window).scroll(function() {
+    $('.fadein-8').each(function() {
+        var mainHeight = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > mainHeight - windowHeight) {
+            $(this).css('opacity', '0.8');
+            $(this).css('transform', 'translateY(0)');
+        }
+    });
+});
+
+$(window).scroll(function() {
+    $('.fadein-1').each(function() {
+        var mainHeight = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > mainHeight - windowHeight) {
+            $(this).css('opacity', '1');
+            $(this).css('transform', 'translateY(0)');
+        }
+    });
+});
+
+$(window).scroll(function() {
+    $('.fadein-9').each(function() {
+        var mainHeight = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > mainHeight - windowHeight) {
+            $(this).css('opacity', '0.9');
+            $(this).css('transform', 'translateY(0)');
+        }
+    });
+});
+
 
 
 
