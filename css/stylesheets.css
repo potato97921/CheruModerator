@@ -22,6 +22,7 @@ html,body{
 
 p {
 	font-family: 'Kaisei Decol', serif;
+	max-width: 310px;
 }
 
 h2 {
@@ -83,6 +84,13 @@ footer {
 
 .contents {
 	max-width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+}
+
+.contents-2 {
+	max-width: 2000px;
 	margin: 0 auto;
 	text-align: center;
 	justify-content: center;
@@ -168,8 +176,8 @@ footer {
 	
 }
 
-.answer-area {
-	max-width: 1000px;
+.answer-content {
+	max-width: 500px;
 }
 
 .s {
@@ -197,6 +205,7 @@ footer {
 	opacity: 0.8;
 	border-radius: 25px 0px 0px 25px;
 	text-align: left;
+	max-width: 360px;
 }
 
 .tag-1 {
@@ -204,7 +213,7 @@ footer {
 }
 
 .tag1 {
-	margin-top: 45px;
+	margin-top: 95px;
 }
 
 .tag:before {
@@ -252,6 +261,7 @@ p:after {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 30px;
+	max-width: 600px;
 }
 
 .shapedividers_com-6918{
@@ -326,7 +336,7 @@ p:after {
 
 .swiper {
 	width: 80%;
-	margin-top: 90px;
+	margin-top: 70px;
 	margin-bottom: 90px;
 }
 
@@ -337,6 +347,11 @@ p:after {
 
 .swiper-slide {
 	width: 95%;
+}
+
+.answer-area {
+	display: flex;
+	flex-wrap: wrap;
 }
 	 
 	  
