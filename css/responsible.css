@@ -9,7 +9,7 @@
     }
 }
 
-@media (min-width:1230px){
+@media (min-width:1024px){
     .status-contents {
         flex-direction: unset;
     }
@@ -20,7 +20,7 @@
     }
 
     .data-rank {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .top-title {
@@ -31,4 +31,23 @@
         margin-top: 120px;
         margin-bottom: 120px;
     }
+
+    .answer-content {
+        max-width: 400px;
+    }
+
+    .data-kind {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1230px){
+    .data-rank {
+        font-size: 50px;
+    }
+
+    .data-kind {
+        font-size: 24px;
+    }
+
 }
