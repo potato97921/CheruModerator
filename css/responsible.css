@@ -12,6 +12,7 @@
 @media (min-width:1024px){
     .status-contents {
         flex-direction: unset;
+        align-items: flex-end;
     }
 
     .data-content {
