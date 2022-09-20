@@ -11,12 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/loading.css">
 </head>
-<body> 
+<body>
+    <div id="splash">
+        <div id="splash_text"></div>
+        <div class="loader_cover loader_cover-up"></div>
+        <div class="loader_cover loader_cover-down"></div>
+    </div> 
     <div id="particles-js"></div>
         <div id="wrapper">
             <div class="header">
@@ -36,7 +39,7 @@
             <div class="contents">
                 <div class="status-contents">
                     <div class="fadein">
-                        <h2 class="tag tag-1 fadein-8"><span><i class="fas fa-star"></i></span>スパナ系魔王チェル</h2>
+                        <h2 class="tag tag-1 fadein-8"><span><i class="fas fa-wrench"></i></span>スパナ系魔王チェル</h2>
                         <img class="Cheru2 fadein-1" src="png/Cheru2.png">
                     </div>
                     <div class="data-content fadein-8">
@@ -65,7 +68,7 @@
                     </div>
                     <div class="data-content fadein-8">
                         <h3 class="data-kind">総合評価</h3>
-                        <h3 class="data-rank b">B</h3>
+                        <h3 class="data-rank a">A</h3>
                     </div>
                 </div>
                 <div class="sentens sentens-1 fadein-8">
@@ -85,7 +88,7 @@
                     <h2 class="sen-2">リスナーを第一に考えて、とても大切にしている。<br>チャンネル登録者数や視聴回数を気にする配信者が多い中、彼は「配信すること」そのものを楽しんでいる。<br>配信中はリスナーのコメントを返す事を一番に考え、リスナーと一緒に配信を楽しむことを第一に考えている。</h2>
                     <br>
                     <h2 class="sen-1">＜絵心＞</h2>
-                    <h2 class="sen-3">説明不要。</h2>
+                    <h2 class="sen-3">皆さんご存じの通り。</h2>
                 </div>
             </div>
             <div class="section section-2">
@@ -278,22 +281,25 @@
             </div>
             <div class="shapedividers_com-283"></div>
             <div class="contents">
+                <div class="moderator-content">
+                    <p class="fadein-9">モ～～デレタにしますね～</p>
+                    <img class="Cheru1 fadein-1" src="png/Cheru1.png">
+                </div>
+            
                 <a href="https://www.youtube.com/channel/UCR7V1WhbyquIRSVC1cC9jBw">君もモデレーターに！</a>
             </div>
-
             <footer>
+                <a class="twitter" href="https://twitter.com/cherutixeru_09"><i class="fa-brands fa-twitter"></i>チェルTwitter</a><br>
+                <span class="copy-right">Copyright © 2022 ぽちたま. All Rights Reserved.</span>
 
             </footer>
-
-
-
-
         </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src="js/loading.js"></script>
     <script src="js/particles.js-master/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/swiper.js"></script>
-
 </body>
