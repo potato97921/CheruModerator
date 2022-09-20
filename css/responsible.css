@@ -7,6 +7,10 @@
         width: 400px;
         height: 400px;
     }
+
+    .one {
+        margin-top: 22vh;
+    }
 }
 
 @media (min-width:1024px){
