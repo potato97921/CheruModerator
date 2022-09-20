@@ -22,7 +22,7 @@ html,body{
 
 p {
 	font-family: 'Kaisei Decol', serif;
-	max-width: 320px;
+	max-width: 310px;
 }
 
 h2 {
@@ -80,6 +80,13 @@ a:active {
 
 footer {
 	height: 100px;
+	margin-top: 100px;
+	background-color: black;
+	opacity: 0.9;
+	color: aliceblue;
+	text-align: center;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 20px;
 }
 
 .contents {
@@ -177,9 +184,17 @@ footer {
 }
 
 .answer-content {
-	max-width: 500px;
+	max-width: 400px;
 	border-radius: 10px;
 	margin-right: 20px;
+}
+
+.moderator-content {
+	max-width: 400px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 
 .s {
@@ -192,8 +207,8 @@ footer {
 	opacity: 1;
 }
 
-.b {
-	color: rgb(53, 116, 252);
+.a {
+	color: rgb(252, 53, 86);
 	opacity: 1;
 }
 
@@ -243,6 +258,8 @@ p:after {
 	border-style: solid;
 	border-color: rgb(17, 185, 115) transparent transparent transparent;
 }
+
+
 
 .sengen {
 	font-size: 25px;
@@ -367,8 +384,8 @@ p:after {
 }
 
 .sen-3 {
-	color: rgb(17, 185, 115);
-	font-size: 50px;
+	color: aliceblue;
+	font-size: 30px;
 }
 
 .tag-1 {
@@ -423,4 +440,31 @@ p:after {
 
   .number {
 	left: 6px;
-  }	 
+  }	
+
+  .copy-right {
+	color: aliceblue;
+	font-size: 14px;
+	margin-top: 40px;
+	display: inline-block;
+  }
+
+  .fa-twitter {
+	margin-right: 10px;
+  }
+
+  .twitter {
+	display: inline-block;
+	background-color: black;
+	opacity: 0.9;
+	color: aliceblue;
+	text-decoration: none;
+	border-radius: none;
+	padding: 0px;
+	font-family: 'Kaisei Decol', serif;
+	font-size: 20px;
+	margin-top: 0px;
+	box-shadow: none;
+	font-weight: bold;
+	margin-top: 8px;
+  }
